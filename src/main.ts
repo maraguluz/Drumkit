@@ -1,4 +1,4 @@
-import { sortUserPlugins } from 'vite'
+//import { sortUserPlugins } from 'vite'
 import './style.css'
 //keydown event is fired when a key is pressed
 const sounds = document.querySelectorAll('audio')

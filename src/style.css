@@ -1,0 +1,65 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  font-family: cursive;
+  color: darkred;
+  text-shadow: 1px 1px 1px;
+}
+h2 {
+  text-align: center;
+  font-family: fantasy;
+  color: darkred;
+}
+.keys {
+  display: flex;
+  color: darkred;
+  flex: 1;
+  column-gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.key {
+  /* border: 0.4rem solid white; */
+  /* border-radius: 0.5rem; */
+  font-size: 4rem;
+  color: black;
+  width: 4rem;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ebebeb;
+  border-top: 0.8rem solid#c2c2c2;
+  border-left: 0.8rem solid#c2c2c2;
+  border-bottom: 0.8rem solid#d4d4d4;
+  border-right: 0.8rem solid #d4d4d4;
+  font-family: sans-serif;
+  transition: all 0.07s ease;
+}
+
+.playing {
+  transform: scale(1.1);
+  text-emphasis-color: #4ec9d9;
+  box-shadow: 0 0 30px 0 #4ec9d9;
+  border-top: 0.8rem solid#c2c2c2;
+  border-left: 0.8rem solid#c2c2c2;
+  border-bottom: 0.8rem solid#d4d4d4;
+  border-right: 0.8rem solid #d4d4d4;
+}
+
+kbd {
+  align-items: center;
+  padding: 5px;
+  background-color: #ebebeb;
+}
